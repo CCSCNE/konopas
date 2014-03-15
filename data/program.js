@@ -219,5 +219,71 @@ var program = [
         "people": [
 	          { "id": "16", "name": "Mehran Sahami<br>Professor and Associate Chair for Education in the Computer Science department, and the Robert and Ruth Halperin University Fellow in Undergraduate Education<br>Stanford University" }],
         "desc": "<em>The talk is supported by the ACM Special Interest Group in Computer Science Education.</em><p><b>Abstract: </b>Interest in Computer Science has fluctuated dramatically in the past 20 years. Many factors have been cited for these enrollment dynamics, including changes in the high-tech economy and the general image of computing. In this talk, we begin by examining some of the factors affecting enrollments in CS, analyzing both historical and current trends. In light of this analysis, we then turn our attention to curricular issues, first examining significant changes made ​​in Stanford University’s undergraduate CS program, which aim to expand the scope of education in computer science and highlight the diversity of options available in the field. We discuss the results of these changes — a tripling in the number of CS majors in the past five years — and analyze some of the reasons why. We then look at CS curriculum development more broadly, discussing the recently released ACM/IEEE-CS Computer Science Curricula 2013 (CS2013) guidelines. CS2013 seeks to provide concrete curricular guidance for the coming decade for undergraduate CS programs by redefining the knowledge areas in CS, rethinking the essentials necessary for a CS curriculum, and identifying working exemplars of courses and curricula."
+    },
+    {
+        "id": "20",
+        "title": "Session 1A: Papers: Algorithmic/Computational Thinking",
+        "tags": [ "Paper", "Session 1A" ],
+        "date": "2014-04-25",
+        "time": "14:30",
+        "mins": "75",
+        "loc": [ "Room" ],
+        "people": [],
+        "desc": ""
+    },
+    {
+        "id": "21",
+        "title": "A Flipped CS0 Classroom: Applying Bloom's Taxonomy to Algorithmic Thinking",
+        "tags": [ "Paper", "Session 1A" ],
+        "date": "2014-04-25",
+        "time": "14:30",
+        "mins": "25",
+        "loc": [ "Room" ],
+        "people": [
+	    {"id": "17", "name" : "Namita Sarawagi"}
+	],
+        "desc": ""
+    },    
+    {
+        "id": "22",
+        "title": "Problem Solving and Algorithmic Thinking",
+        "tags": [ "Paper", "Session 1A" ],
+        "date": "2014-04-25",
+        "time": "14:55",
+        "mins": "25",
+        "loc": [ "Room" ],
+        "people": [
+	    {"id": "18", "name" : "Ed Lamagna"}
+	],        
+	"desc": ""
+    },    
+    {
+        "id": "23",
+        "title": "Computational Thinking Expanding the Toolkit",
+        "tags": [ "Paper", "Session 1A" ],
+        "date": "2014-04-25",
+        "time": "15:20",
+        "mins": "25",
+        "loc": [ "Room" ],
+        "people": [
+	    {"id": "19", "name" : "Susan Imberman"},
+	    {"id": "20", "name" : "Deborah Sturm"},
+	    {"id": "21", "name" : "Mohammed Azhar"}
+	],
+        "desc": ""
+    },
+    {
+        "id": "24",
+        "title": "Tutorial: Creating a GPS/GIS technologies course module using Google Earth",
+        "tags": [ "Tutorial", "Session 1B" ],
+        "date": "2014-04-25",
+        "time": "14:30",
+        "mins": "75",
+        "loc": [ "Room" ],
+        "people": [
+	    {"id": "22", "name" : "Rajesh Prasad"},
+	    {"id": "23", "name" : "Carol Traynor"}
+	],
+        "desc": ""
     }
 ]

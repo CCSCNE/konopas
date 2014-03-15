@@ -116,7 +116,8 @@ var people = [
         "name": [ "Jim", "Hendler"],
         "tags": [],
         "prog": [ "14"],
-        "links": {"url" : "http://www.cs.rpi.edu/~hendler/"},
+        "links": {"url" : "http://www.cs.rpi.edu/~hendler/",
+		 "img": "http://www.cs.rpi.edu/~hendler/hendler2008.jpg"},
         "bio": "Jim Hendler is the Director of the Institute for Data Exploration and Applications and the Tetherless World Professor of Computer, Web and Cognitive Sciences at RPI.  An early researcher in the “Semantic Web area,” Hendler was the recipient of a 1995 Fulbright Foundation Fellowship, is a former member of the US Air Force Science Advisory Board, and is a Fellow of the American Association for Artificial Intelligence, the British Computer Society, the IEEE and the AAAS and was the first computer scientist to serve on the Board of Reviewing editors for Science. Hendler  is also the former Chief Scientist of the Information Systems Office at the US Defense Advanced Research Projects Agency (DARPA) and was awarded a US Air Force Exceptional Civilian Service Medal in 2002.   In 2010, Hendler was named one of the 20 most innovative professors in America by Playboy magazine and was selected as an “Internet Web Expert” by the US government. In 2012, he was one of the inaugural recipients of the Strata Conference “Big Data” awards for his work on large-scale open government data, and he is a columnist and associate editor of the Big Data journal. In 2013, Governor Andrew Cuomo appointed Hendler to be New York State’s Open Data Advisor."
     },
     {
@@ -126,6 +127,62 @@ var people = [
         "prog": [ "19"],
         "links": {"url" : "http://robotics.stanford.edu/~sahami/bio.html" },
         "bio": "Mehran Sahami is a Professor and Associate Chair for Education in the Computer Science department, and the Robert and Ruth Halperin University Fellow in Undergraduate Education at Stanford University. Prior to joining the Stanford faculty, he was a Senior Research Scientist at Google for several years. His research interests include computer science education, machine learning, and web search. He is co-chair of the ACM/IEEE-CS joint task force on Computer Science Curricula 2013 (CS2013). He has published over 40 technical papers and has over 20 patent filings. He received his BS, MS, and Ph.D. in Computer Science from Stanford University.."
+    },
+    {
+        "id": "17",
+        "name": [ "Namita", "Sarawagi"],
+        "tags": [],
+        "prog": [ "21"],
+        "links": {},
+        "bio": "Rhode Island College"
+    },
+    {
+        "id": "18",
+        "name": [ "Ed", "Lamagna"],
+        "tags": [],
+        "prog": [ "22"],
+        "links": {},
+        "bio": "University of Rhode Island"
+    },
+    {
+        "id": "19",
+        "name": [ "Susan", "Imberman"],
+        "tags": [],
+        "prog": [ "23"],
+        "links": {},
+        "bio": "College of Staten Island"
+    },    
+    {
+        "id": "20",
+        "name": [ "Deborah", "Sturm"],
+        "tags": [],
+        "prog": [ "23"],
+        "links": {},
+        "bio": "College of Staten Island"
+    },
+    {
+        "id": "21",
+        "name": [ "Mohammed", "Azhar"],
+        "tags": [],
+        "prog": [ "23"],
+        "links": {},
+        "bio": "Borough of Manhatten Community College"
+    },
+    {
+        "id": "22",
+        "name": [ "Rajesh", "Prasad"],
+        "tags": [],
+        "prog": [ "24"],
+        "links": {},
+        "bio": "Saint Anselm College"
+    },
+    {
+        "id": "23",
+        "name": [ "Carol", "Traynor"],
+        "tags": [],
+        "prog": [ "24"],
+        "links": {},
+        "bio": "Saint Anselm College"
     }
 
 
