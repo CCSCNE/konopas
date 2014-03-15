@@ -171,9 +171,9 @@ var program = [
         "mins": "60",
         "loc": [ "Room" ],
         "people": [
-            { "id": "15", "name": "Jim Hendler" }
+            { "id": "15", "name": "Jim Hendler<br>Director, Rensselaer Institute for Data Exploration and Applications<br>Rensselaer Polytechnic Institute" }
         ],
-        "desc": ""
+        "desc": "<b>Abstract: </b>As “big data” moves from buzzword to practice, campus departments must increasingly figure out where data science fits into their curricula. Clearly such an interdisciplinary area crosses traditional boundaries ranging from statistics traditionally taught in mathematics or engineering departments, a new method of scientific discovery for biologists and chemists, a new challenge for ethicists and political scientists, and a new realm for design and electronic arts, etc.  Within computer science departments, it currently seems to reside in the machine learning and knowledge discovery areas where the metaphor of big data as “the new oil” to be mined is pursued.  In this talk, however, I opine that just as oil is important for the energy it generates, which powers the technologies of modern life, data is increasingly important for the information it generates, which will power the information applications of the future.  We will explore some of these emerging trends, ranging from high performance modeling to the Watson AI system, looking at what we might want to be teaching our students if they are to be leaders in this emerging area."
     },
     {
         "id": "16",
@@ -207,5 +207,17 @@ var program = [
         "loc": [ "Room" ],
         "people": [],
         "desc": ""
+    },
+    {
+        "id": "19",
+        "title": "Keynote 2: Computer Science Curricula for the Coming Decade",
+        "tags": [ "Keynote" ],
+        "date": "2014-04-26",
+        "time": "09:00",
+        "mins": "60",
+        "loc": [ "Room" ],
+        "people": [
+	          { "id": "16", "name": "Mehran Sahami<br>Professor and Associate Chair for Education in the Computer Science department, and the Robert and Ruth Halperin University Fellow in Undergraduate Education<br>Stanford University" }],
+        "desc": "<em>The talk is supported by the ACM Special Interest Group in Computer Science Education.</em><p><b>Abstract: </b>Interest in Computer Science has fluctuated dramatically in the past 20 years. Many factors have been cited for these enrollment dynamics, including changes in the high-tech economy and the general image of computing. In this talk, we begin by examining some of the factors affecting enrollments in CS, analyzing both historical and current trends. In light of this analysis, we then turn our attention to curricular issues, first examining significant changes made ​​in Stanford University’s undergraduate CS program, which aim to expand the scope of education in computer science and highlight the diversity of options available in the field. We discuss the results of these changes — a tripling in the number of CS majors in the past five years — and analyze some of the reasons why. We then look at CS curriculum development more broadly, discussing the recently released ACM/IEEE-CS Computer Science Curricula 2013 (CS2013) guidelines. CS2013 seeks to provide concrete curricular guidance for the coming decade for undergraduate CS programs by redefining the knowledge areas in CS, rethinking the essentials necessary for a CS curriculum, and identifying working exemplars of courses and curricula."
     }
 ]
