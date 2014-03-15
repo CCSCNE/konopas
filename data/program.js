@@ -148,7 +148,7 @@ var program = [
     },
     {
         "id": "13",
-        "title": "Hackfest",
+        "title": "Hackfest: MouseTrap",
         "tags": [ "Hackfest" ],
         "date": "2014-04-25",
         "time": "14:30",
@@ -160,7 +160,7 @@ var program = [
             { "id": "13", "name": "Karl Wurst" },
             { "id": "14", "name": "Joanmarie Diggs" }
         ],
-        "desc": ""
+        "desc": "MouseTrap Hackfest<br>Sponsored by RedHat<ul><li>DATE: Friday, April 25<li>TIME: Noon – ??<li>LOCATION: Providence College, room TBD<li>Registration required (see instructions at the bottom)</ul>Want to…<ul><li>Help others through code?<li>Gain real-world development experience?<li>Become more familiar with an open-source project?<li>Move your mouse cursor with your head?</ul>Then come to the MouseTrap Hackfest! No experience required. Students and faculty are welcome.<ul><li>Students and faculty welcome<li>Bring a laptop<li>Food provided for registered participants</ul>MouseTrap is a standalone GNOME application that allows users with physical impairments to move a mouse cursor using a webcam. To learn more about MouseTrap visit https://wiki.gnome.org/Projects/MouseTrap.<p>Facilitators include students currently involved in MouseTrap as well as:<ul><li>Joanie Diggs, GNOME Accessibility Team<li>Heidi Ellis, MouseTrap Maintainer<li>Stoney Jackson<li>Karl Wurst</ul><b>To register: </b>Please email Stoney Jackson (email address goes here) the following:<ul><li>SUBJECT: Hackfest Registration<li>Your full name<li>Whether you are a student or faculty<li>A brief description of your experience working on open source projects (remember, no experience is required!)</ul>"
     },
     {
         "id": "14",
