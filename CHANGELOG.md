@@ -15,9 +15,9 @@
 # 0.7.1 (2014-08-06)
 
   * Code:
-    - added `konopas_set.set_category` as alt. for tags "type:..."
-    - added optional `min_count` for tag & area filters
-    - added `toggle_collapse` for info view
+    - added konopas_set.set_category as alt. for tags "type:..."
+    - added optional min_count for tag & area filters
+    - added toggle_collapse for info view
     - Makefile: easier-to-parse minified output
     - reverted item id setting on click -- was too slow & too unclear
     - bugfix: search includes tags
@@ -40,29 +40,29 @@
     - Added automatic people paging, set by `konopas_set.people_per_screen`
     - Removed Next view, added "Now" to Program view
   * Code:
-    - Split `src/app.js` into multiple files
+    - Split src/app.js into multiple files
     - Cleaned up almost all functions & data into a `KonOpas` namespace, with an
       instance `konopas`
-    - Moved program sorting from `KonOpas.Item.show_list` to `KonOpas.Prog`
-    - Added polyfills for `function.bind()` & `string.normalize()`
-    - Removed from git tracking: `konopas*.js`
+    - Moved program sorting from KonOpas.Item.show_list to KonOpas.Prog
+    - Added polyfills for function.bind() & string.normalize()
+    - Removed from git tracking: konopas*.js
   * Localization:
     - Support for simultaneous multi-lingual use, req. supporting
       messageformat.js (0.2.0)
     - better localized date & weekday handling, with custom polyfill for
-      `date.toLocaleDateString()`
-    - Removed from git tracking: `i18n/*.js`
+      date.toLocaleDateString()
+    - Removed from git tracking: i18n/*.js
   * Skin:
     - Added -ms-high-contrast rule for item select boxes in IE10 & later
     - Switched CSS compressor to clean-css (was yui-compress)
-    - Split `fonts.less` from `main.less`; cleaned up `fonts.css`
-    - Removed from git tracking: `skin/skin.css`, `skin/PTSansNarrow700.ttf` and
-      `skin/RobotoCondensed400.ttf`
+    - Split fonts.less from main.less; cleaned up fonts.css
+    - Removed from git tracking: skin/skin.css, skin/PTSansNarrow700.ttf and
+      skin/RobotoCondensed400.ttf
   * Util:
-    - `lib/gdrive2json.php`: added Google's new URL scheme (check your path for
+    - lib/gdrive2json.php: added Google's new URL scheme (check your path for
       either `/d/` or `/ccc?`)
     - Reorganised everything
-    - Removed android-wrapper & `config.html`
+    - Removed android-wrapper & config.html
   * Updated the sample artwork
   * Lots and lots of bugfixes, in particular increasing robustness to bad data
 
@@ -72,32 +72,29 @@
   * Added Gulp.js based build system (thanks to [akx](https://github.com/akx/))
   * Localization improvements:
     - Added Finnish (again, thanks to akx)
-    - added `i18n/README.md` for translators
-    - added separate `i18n/{en,fi,sv}.js` files
+    - added i18n/README.md for translators
+    - added separate i18n/{en,fi,sv}.js files
     - relaxed MessageFormat version dependence
   * allow people array to be missing or empty
 
 
 # 0.6.1 (2014-03-25)
 
-  * really minor update, mainly to get `konopas.org/util/i18n` to match latest
-    release
+  * really minor update, mainly to get konopas.org/util/i18n to match latest release
   * improved & updated README
-  * switched to Makefile from `build.sh`
-  * `mv src/i18n.js i18n/i18n.js`
+  * switched to Makefile from build.sh
+  * mv src/i18n.js i18n/i18n.js
   * added linebreaks to konopas.min.js & switched lessc to use yui-compress
 
 
 # 0.6.0 (2014-03-15)
 
-  * added internationalization support, with English & Swedish translations
-    (thanks to Karl-Johan Norén)
+  * added internationalization support, with English & Swedish translations (thanks to Karl-Johan Norén)
   * added build script, see `./build.sh -h` for options
-  * added optional `ko.non_ascii_people` for correct sorting
-  * added `ko.tag_categories`; set to eg. `['type','track']` to use tags like
-    `type:Lecture` cleanly
+  * added optional ko.non_ascii_people for correct sorting
+  * added ko.tag_categories; set to eg. ['type','track'] to use tags like 'type:Lecture' cleanly
   * added mobile homescreen app install instructions
-  * added regexp option to area, acting on `loc[].join(';')`
+  * added regexp option to area, acting on loc[].join(';')
   * programme filter summary terms are links to remove themselves
   * updated popup menu for 2nd-level area, tags, maps, etc.
   * switched sample data to that of Arisia 2014
@@ -107,31 +104,32 @@
 
 # 0.5.0 (2013-12-21)
 
-  * added server access in `server.js`, featuring:
+  * added server access in server.js, featuring:
     - login using OAuth2/OpenID authenticated e-mail addresses
     - sync between browsers & devices
     - iCal (.ics) URL export for external calendars
     - commenting & voting on individual programme items
-    - new `ko.use_server` flag, defaulting to `false`
-  * moved raw js files to `src/`; using minified output
+    - new ko.use_server flag, defaulting to "false"
+  * moved raw js files to src/; using minified output
   * less strict input processing:
     - allowing for items missing tags, loc, people
     - program now sorted by date, time, location if necesary
   * less non-code data in javascript files
   * added hourly app cache update check
-  * added `ko.show_all_days_by_default`, default `false`: shows current or
-    first day if unspecified
+  * added ko.show_all_days_by_default, default false: shows
+    current or first day if unspecified
   * javascript speed & legibility improvements
-  * split `skin/skin.less` into multiple files
-  * added "Expand all" link whenever fewer than `ko.expand_all_max_items` items
-    are listed
+  * split skin/skin.less into multiple files
+  * added "Expand all" link whenever fewer than
+    ko.expand_all_max_items items are listed
   * next view: clearer text, smarter time picker
   * added QR code link, using chart.apis.google.com
-  * refactored star functions into Stars class & separated it into `stars.js`
-  * added `util/config.html`, a basic tool for parsing program.js for
-    `index.html`
-  * consolidated logging to go through `_log()`, which also checks new
-    `ko.log_messages` (default true) & console existence
+  * refactored star functions into Stars class & separated it
+    into stars.js
+  * added util/config.html, a basic tool for parsing program.js
+    for index.html
+  * consolidated logging to go through _log(), which also checks
+    new ko.log_messages (default true) & console existence
   * a pile of CSS & JS bugfixes & cleanup
 
 
@@ -150,12 +148,12 @@
   * added export/import of starred selections
   * setting `time_show_am_pm` now actually does what you think
   * added `abbrev_00_minutes` option for am/pm time
-  * added `gdrive2js`, a PHP conversion tool from data in Google Docs
-    spreadsheets to KonOpas format
-  * skin bug fixes: time scroller doesn't show at top, long links don't
-    overflow in profile view
-  * show `alert()` dialog for browsers without required features
-  * show `alert()` dialog for iOS/Safari in private browsing mode
+  * added gdrive2js, a PHP conversion tool from data in Google
+    Docs spreadsheets to KonOpas format
+  * skin bug fixes: time scroller doesn't show at top, long links
+    don't overflow in profile view
+  * show alert() dialog for browsers without required features
+  * show alert() dialog for iOS/Safari in private browsing mode
   * lots of bugfixes
 
 

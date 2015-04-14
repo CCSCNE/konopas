@@ -1,6 +1,0 @@
-#!/bin/sed -rf
-
-/^[{}]$/d
-s/^./msgid &/
-s/": ?"/"\nmsgstr "/
-s/,$//

@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html><!-- manifest="konopas.appcache" -->
+<html manifest="konopas.appcache" -->
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="skin/konopas.css">
+<link rel="stylesheet" href="skin/skin.css">
 <meta name="HandheldFriendly" content="true">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- Android + favicon -->
 <meta name="mobile-web-app-capable" content="yes">
-<link rel="shortcut icon" sizes="196x196" href="skin/favicon.196.png">
+<link rel="shortcut icon" sizes="196x196" href="demo/favicon.196.png">
 
 <!-- iOS -->
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -33,7 +33,7 @@
 <meta name="msapplication-square310x310logo" content="data/icon.ie.png">
 -->
 
-<title>KonOpas Sample Guide</title>
+<title>CCSCNE 2015 Program Guide</title>
 
 <body><div id="top"></div>
 <div id="load_disable"></div>
@@ -44,9 +44,9 @@
 <div id="banner">
 <div id="server_connect"></div>
 
-<h1><a href="#info" alt="CONVENTION" title="CONVENTION">
-<img id="title-small" src="skin/konopas.png" style="width: 240px;">
-<img id="title" src="skin/konopas.png" style="width: 200px;"></a></h1>
+<h1><a href="#info" alt="CCSCNE 2015" title="CCSCNE 2015">
+<img id="title-small" src="data/title.png" style="width: 240px;">
+<img id="title" src="data/title.png" style="width: 200px;"></a></h1>
 
 <ul id="tabs">
 <li id="tab_star"><a href="#star" data-txt>My con</a>
@@ -66,7 +66,8 @@
 
 <div id="prog_view" class="view">
 	<div id="prog_filters" class="filters">
-		<div id="prog_lists"></div>
+		<div id="prog_lists">
+		</div>
 		<form name="search" id="search">
 			<input type="text" id="q" required data-txt="Search" data-txt-attr="placeholder">
 			<div id="q_ctrl">
@@ -87,9 +88,22 @@
 </div>
 
 <div id="info_view" class="view">
-<p>This is the programme guide for <a href="http://example.org/">CONVENTION</a>. It should be suitable for use on most browsers and devices. It's an instance of <a href="http://konopas.org/">KonOpas</a>, an open-source project providing conventions with easy-to-use mobile-friendly guides.
 
-<p><div id="last-updated">Programme and participant data were last updated <span></span>.</div>
+<h2>CCSCNE-2015</h2>
+<h2><p>The Twentieth Annual Consortium for Computing Sciences in
+  Colleges Northeastern Conference</h2>
+<h3><p>Consortium for Computing Sciences in Colleges</h3>
+<h3><p>In cooperation with
+  <br>The Association for Computing Machinery
+  <br>Special Interest Group on
+  Computer Science Education</h3>
+<h3>April 17-18, 2015
+<p>The College of the Holy Cross, Worcester, MA</h3>
+<h3><p>Please see the complete PDF version of the printed program <a
+  href=http://ccscne.org/wp-content/uploads/2014/04/CCSCNE_Program_2015.pdf>here.</a></h3>
+
+<p>This is the program guide for <a href="http://ccscne.org/conferences/ccscne-2015/">CCSCNE
+  2015</a>. It should be suitable for use on most browsers and devices. It's an instance of <a href="http://konopas.org/">KonOpas</a>, an open-source project providing conventions with easy-to-use mobile-friendly guides.
 
 <div id="install-instructions">
 <p>This guide will work in your browser even when you don't have an internet connection.
@@ -105,7 +119,7 @@
 if (navigator.standalone) document.getElementById('install-instructions').style.display = 'none';
 </script>
 
-<!-- SAMPLE SECTIONS FOR "INFO" VIEW, UNCOMMENT TO SEE
+
 <style>
 #map { width: 100% !important; }
 #map td { text-align: center !important; padding: 6px 32px; }
@@ -120,64 +134,71 @@ if (navigator.standalone) document.getElementById('install-instructions').style.
 .quick-ref td:nth-child(3) { padding-left: 0; }
 </style>
 
-<h2>Sample Maps</h2>
+<h2>Maps</h2>
 <table id="map">
-<tr><td><a class="popup-link" href="http://guide.2014.arisia.org/data/arisia-westin-3W.png">Mezzanine Level&nbsp;(3W)</a>
-    <td><a class="popup-link" href="http://guide.2014.arisia.org/data/arisia-westin-3E.png">Conference Level&nbsp;(3E)</a>
-<tr><td colspan="2"><a class="popup-link" href="http://guide.2014.arisia.org/data/arisia-westin-2.png">Lobby Level&nbsp;(2)</a>
-<tr><td><a class="popup-link" href="http://guide.2014.arisia.org/data/arisia-westin-1W.png">Concourse Level&nbsp;(1W)</a>
-    <td><a class="popup-link" href="http://guide.2014.arisia.org/data/arisia-westin-1E.png">Galleria Level&nbsp;(1E)</a>
+<tr><td><a class="popup-link"
+  href="campus-map.png">Campus
+  Map</a>
+</td></tr>
+<tr><td><a class="popup-link"
+  href="Hogan_3rd.png">Hogan Campus Center 3rd Floor</a>
+</td></tr>
+<tr><td><a class="popup-link"
+  href="Hogan_4th.png">Hogan Campus Center 4th Floor</a>
+</td></tr>
 </table>
 
-<h2>Sample Links</h2>
+<h2>Conference Supporters</h2>
+<h3>Gold Supporters</h3>
+  <ul>
+  <li><a href=http://education.emc.com/academicalliance/>EMC Academic Alliance</a>
+    <li><a href=http://www.turingscraft.com/>Turing's Craft</a>
+    </ul>
+    <h3>Silver Supporters</h3>
+    <ul>
+    <li><a href=http://www.dexterindustries.com/site/>Dexter Industries</a>
+    <li><a href=http://www.iccp.org/>Institute for the Certification of Computing Professionals</a>
+    <li><a href=http://www.jblearning.com/>Jones and Bartlett Learning</a>
+  </ul>
+
+  <h2><a href=http://www.ccsc.org/partners/>CCSC National Partners</a></h2>
+  <ul>
+    <li>Aldebaran Robotics
+    <li>Oracle Academy
+    <li>Turing's Craft
+    <li>CMU Information Networking Institute
+    <li>National Science Foundation
+    </ul>
+    
+    
+<h2>Links</h2>
 <ul>
-<li><a href="http://example.com/">Newsletter</a>
-<li><a href="http://example.com/">Restaurant Guide</a> (PDF, 6MB)
-<li><a href="http://example.com/">Progress Report 5</a> (web page)
-<li><a href="http://example.com/">Code of Conduct</a> (PDF)
+<li><a
+  href="http://ccscne.org/wp-content/uploads/2014/04/CCSCNE_Program_2015.pdf">Full
+  PDF program</a>
+<li><a href="http://ccscne.org/">CCSCNE</a>
 </ul>
-
-<h2>Sample Quick Reference</h2>
-<dl class="quick-ref">
-<dt><b>Access/Handicapped Services</b>: see Info Desk near elevators
-
-<dt><b>Art Show</b>: Harbor Ballroom II/III (3E)
-<dd><table>
-<tr><td>Friday<td>6pm–<td>9pm
-<tr><td>Saturday<td>10am–<td>6pm, 8pm–10pm
-<tr><td>Sunday<td>10am–<td>1:30pm
-</table>
-<b>Sales Pickup / Artist Checkout</b>: Sunday 3:30pm–7:30pm<br>
-<b>Voice Auction</b>: Sunday 4:30pm<br>
-<b>Sales Pickup / Artist Checkout</b>: Monday 10am–1pm
-
-<dt><b>...</b>
-</dl>
--->
 
 </div>
 
 
-<div id="prog_ls" class="ls"><br><div class="ls_loading">Loading programme data&hellip;</div></div>
+<div id="prog_ls" class="ls"><br><div class="ls_loading">Loading program data&hellip;</div></div>
 
 </div><!-- /main -->
 
-<script src="http://konopas.org/demo/data/program.js"></script>
-<script src="http://konopas.org/demo/data/people.js"></script>
-<script src="konopas.js"></script>
-<script>
-var konopas = new KonOpas({
-	'id': '',
+<script> var konopas_set = {
+	'id': 'CCSCNE2015',
 	'default_duration': 0,
 	'time_show_am_pm': true,
 	'show_all_days_by_default': true,
-	'use_server': false
-});
-konopas.set_program(program, {
-	'day': {},
-	'area': {},
-	'tag': {}
-});
-konopas.set_people(people);
-konopas.set_view();
+	'use_server': false,
+	'filters': {
+		'day': {},
+		'area': {},
+		'tag': {}
+}
+};
 </script>
+<script src="data/program.js"></script>
+<script src="data/people.js"></script>
+<script src="konopas.min.js"></script>
